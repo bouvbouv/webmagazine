@@ -1,0 +1,124 @@
+/* ---------------------------------------------
+RESET
+--------------------------------------------- */
+
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+html {
+   font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+}
+ul, ol {
+   margin: 0;
+   padding: 0;
+}
+
+figure {
+   margin: 0;
+}
+a {
+   text-decoration: none;
+}
+
+img {
+   max-width: 100%;
+}
+
+
+/* ---------------------------------------------- */
+/*------------------block-header----------------- */
+/*----------------------------------------------- */
+
+.block-header .baniere {
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.block-header .reseaux img {
+  width: 45px;
+	height: 45px;
+  object-fit: cover;
+  position: relative;
+  top: 2rem;
+  left: 82%;
+  margin-right: 20px;
+}
+
+.block-header .recherche p {
+  background-color: #e5e5e3;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.block-header .recherche {
+  position: relative;
+  display: inline-block;
+  top: 18rem;
+  left: 39%;
+}
+
+.block-header .loupe {
+  width: 45px;
+	height: 45px;
+  position: absolute;
+  top: 1.2rem;
+  left: 2.5%;
+}
+
+
+/* ---------------------------------------------- */
+/*---------------------block-center-------------- */
+/*----------------------------------------------- */
+
+.block-center p {
+  position: absolute;
+  top: 70%;
+}
+
+
+/* ---------------------------------------------- */
+/*---------------------footer-------------------- */
+/*----------------------------------------------- */
+
+
+.block-footer .inner {
+  position: absolute;
+  left: 0%;
+  top: 100%;
+  font-family: Arial;
+  font-size: 13px;
+  color: white;
+  background-color: #dbe145;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+  padding-left: 38.7%;
+  padding-right: 38.8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+}
+
+.block-footer .inner a {
+  color: white;
+}
+
+.block-footer .inner p {
+  margin-right: 0.5rem;
+}
